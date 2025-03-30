@@ -20,10 +20,14 @@ public class ItemMenu {
     public String getNombre () {
         return Nombre;
     }
-    public double getPrecio(){
+
+    public double getPrecio () {
         return precio;
     }
-    public TipoItem getTipo(){
+
+    public TipoItem getTipo () {
         return tipo;
     }
+
+
 }
