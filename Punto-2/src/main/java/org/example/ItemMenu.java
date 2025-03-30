@@ -9,22 +9,21 @@ public class ItemMenu {
     private TipoItem tipo;
     private String Nombre;
     private double precio;
-    private int cantidad;
+
 
     public ItemMenu (String nombre, double precio, TipoItem tipo, int cantidad) {
         Nombre = nombre;
         this.precio = precio;
         this.tipo = tipo;
-        this.cantidad = cantidad;
     }
 
-
-    public double precioPorCantidad () {
-        return precio * cantidad;
+    public String getNombre () {
+        return Nombre;
     }
-
-    public TipoItem tipoDeConsumo () {
+    public double getPrecio(){
+        return precio;
+    }
+    public TipoItem getTipo(){
         return tipo;
     }
-
 }
