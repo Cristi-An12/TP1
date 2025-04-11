@@ -12,7 +12,7 @@ public class Visa implements Tarjeta {
                 totalConDescuento += item.getPrecio ();
             }
         }
-        return totalConDescuento * 0.03f;
+        return totalConDescuento * 0.03;
 
     }
 }

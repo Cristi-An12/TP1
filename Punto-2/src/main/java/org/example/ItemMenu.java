@@ -11,14 +11,10 @@ public class ItemMenu {
     private double precio;
 
 
-    public ItemMenu (String nombre, double precio, TipoItem tipo, int cantidad) {
+    public ItemMenu (String nombre, double precio, TipoItem tipo) {
         Nombre = nombre;
         this.precio = precio;
         this.tipo = tipo;
-    }
-
-    public String getNombre () {
-        return Nombre;
     }
 
     public double getPrecio () {
